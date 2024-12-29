@@ -28,16 +28,16 @@ This is a web-based **Hall Booking System** that allows users to manage hall boo
 
 ## Requirements
 
- 1. **PostgreSQL**:
+### 1. **PostgreSQL**:
    - Install PostgreSQL to store and manage the booking data.
 
- 2. **Java**:
+### 2. **Java**:
    - Java 11 or higher for the backend API (Spring Boot).
    
- 3. **Node.js**:
+### 3. **Node.js**:
    - Node.js for running the React frontend.
 
- 4. **Maven**:
+### 4. **Maven**:
    - For managing Spring Boot dependencies.
 
 ## Setup Instructions
