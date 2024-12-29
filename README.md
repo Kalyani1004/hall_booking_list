@@ -105,10 +105,10 @@ spring.datasource.password=your-password
    Here are the key API endpoints for managing bookings:
 
   - **GET /api/bookings**
-    Fetch all bookings.
+      - Fetch all bookings.
    
   - **GET /api/bookings/{id}**
-    Fetch a booking by its ID.
+     - Fetch a booking by its ID.
    
   - **POST /api/bookings**
     Create a new booking.
