@@ -98,26 +98,26 @@ spring.datasource.password=your-password
 ### 4. Access the Application
    Once everything is set up, you can use the hall booking system by visiting the following URLs:
 
-   Frontend URL: http://localhost:3000/
-   Backend API URL: http://localhost:8080/
-   API Endpoints
+  - Frontend URL: http://localhost:3000/
+  = Backend API URL: http://localhost:8080/
+  - API Endpoints
    
    Here are the key API endpoints for managing bookings:
 
-   **GET /api/bookings**
-   Fetch all bookings.
+  - **GET /api/bookings**
+    Fetch all bookings.
    
-   **GET /api/bookings/{id}**
-   Fetch a booking by its ID.
+  - **GET /api/bookings/{id}**
+    Fetch a booking by its ID.
    
-   **POST /api/bookings**
-   Create a new booking.
+  - **POST /api/bookings**
+    Create a new booking.
    
-   **PUT /api/bookings/{id}**
-   Update an existing booking by its ID.
+  - **PUT /api/bookings/{id}**
+    Update an existing booking by its ID.
    
-   **DELETE /api/bookings/{id}**
-   Delete a booking by its ID.
+  - **DELETE /api/bookings/{id}**
+    Delete a booking by its ID.
 
 
    **Database Schema**
