@@ -46,7 +46,8 @@ This is a web-based **Hall Booking System** that allows users to manage hall boo
 
 Clone the repository to your local machine:
 
-```git clone https://github.com/your-username/hall-booking-system.git
+```bash
+git clone https://github.com/your-username/hall-booking-system.git
 ```
 
 ### 2. Setup the Backend (Spring Boot)
