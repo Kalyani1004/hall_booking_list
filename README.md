@@ -111,17 +111,17 @@ spring.datasource.password=your-password
      - Fetch a booking by its ID.
    
   - **POST /api/bookings**
-    Create a new booking.
+     -  Create a new booking.
    
   - **PUT /api/bookings/{id}**
-    Update an existing booking by its ID.
+     -  Update an existing booking by its ID.
    
   - **DELETE /api/bookings/{id}**
-    Delete a booking by its ID.
+      - Delete a booking by its ID.
 
 
    **Database Schema**
-   Here’s the schema for the bookings table in PostgreSQL:
+    -  Here’s the schema for the bookings table in PostgreSQL:
 
 
    ```sql
