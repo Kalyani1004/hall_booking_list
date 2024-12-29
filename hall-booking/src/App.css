@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background-color: #ffffff; 
+  margin: 0% auto;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px; 
+  max-width: 100%; 
+  margin: 0% auto;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-spacing: 10px; 
+}
+td, th {
+  padding: 10px; 
+  vertical-align: top; 
+}
+
+th{
+  text-align: center;
+}
+
+input, select, textarea {
+  width: 100%; 
+  padding: 8px; 
+  margin-top: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+button { 
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-booking-btn {
+ justify-content: center; 
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.back-btn {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.back-btn button {
+  display: inline-block; 
+  padding: 10px 20px; 
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.edit-button {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: rgb(96, 143, 219);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.delete-button {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: rgb(199, 39, 39);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.edit-form {
+  font-size: 15x;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.edit-form input{
+  width: 70%;
+}
+
+h2{
+  color: rgb(24, 72, 162);
+  font-size: 40px;
+}
+
+.add-booking-form{
+  width: 60%;
+}
+
+.add-booking-form input{
+  width: 60%;
+}
+
+.add-booking-form select{
+  width: 60%;
+}
+
+.add-booking-form textarea{
+  width: 60%;
+}
+
+.submit-btn, .back-btn{
+  height: 20%;
+  width: 50;
+}
+
+.back-btn{
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 700;
+  color: #060606;
+}
