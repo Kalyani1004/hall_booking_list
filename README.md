@@ -146,5 +146,9 @@ spring.datasource.password=your-password
        CONSTRAINT bookings_pkey PRIMARY KEY (id)
    )
    ```
+### Video Demonstration of Project :
+   ```bash
+   https://www.loom.com/share/31bceff585004acc9ad46b88e90ed110?sid=ac2b47ff-1a06-4a5c-a438-02058da6b34a
+   ```
 
 
