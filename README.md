@@ -61,12 +61,13 @@ git clone https://github.com/your-username/hall-booking-system.git
 
   In the `src/main/resources/application.properties` file of the backend, update the PostgreSQL connection details:
 
-- **properties** 
- - spring.datasource.url=jdbc:postgresql://localhost:5432/bookings
-- spring.datasource.username=your-username
-  - spring.datasource.password=your-password
 
-- **Run the Backend:**
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/bookings
+spring.datasource.username=your-username
+spring.datasource.password=your-password
+
+**Run the Backend:**
 
 In the backend directory, use Maven to run the Spring Boot application:
 
@@ -80,7 +81,6 @@ Download and install Node.js from here.
 - **Install Dependencies:**
 
 Navigate to the frontend directory and install the required npm dependencies:
-
 
 cd frontend
 npm install
@@ -99,19 +99,19 @@ Backend API URL: http://localhost:8080/
 API Endpoints
 Here are the key API endpoints for managing bookings:
 
--**GET /api/bookings**
+**GET /api/bookings**
 Fetch all bookings.
 
--**GET /api/bookings/{id}**
+**GET /api/bookings/{id}**
 Fetch a booking by its ID.
 
--**POST /api/bookings**
+**POST /api/bookings**
 Create a new booking.
 
--**PUT /api/bookings/{id}**
+**PUT /api/bookings/{id}**
 Update an existing booking by its ID.
 
--**DELETE /api/bookings/{id}**
+**DELETE /api/bookings/{id}**
 Delete a booking by its ID.
 
 -**Database Schema**
