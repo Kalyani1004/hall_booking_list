@@ -79,21 +79,22 @@ spring.datasource.password=your-password
 ### 3. Setup the Frontend (React.js)
 - **Install Node.js:**
 
-Download and install Node.js from here.
+   Download and install Node.js from here.
 
 - **Install Dependencies:**
 
-Navigate to the frontend directory and install the required npm dependencies:
-
-cd frontend
-npm install
-
+   Navigate to the frontend directory and install the required npm dependencies:
+   ```bash
+   cd frontend
+   npm install
+   ```
+   
 - **Run the Frontend:**
 
--**Start the React development server:**
-
-npm start
-
+- **Start the React development server:**
+   ```bash
+   npm start
+   ```
 ### 4. Access the Application
 Once everything is set up, you can use the hall booking system by visiting the following URLs:
 
