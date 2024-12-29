@@ -1,4 +1,4 @@
-# Hall Booking System
+# Hall Booking Entry Management System
 
 This is a web-based **Hall Booking System** that allows users to manage hall bookings. It provides the following functionalities:
 
