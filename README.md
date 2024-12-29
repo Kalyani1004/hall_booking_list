@@ -83,9 +83,9 @@ spring.datasource.password=your-password
 
 - **Install Dependencies:**
 
-   Navigate to the frontend directory and install the required npm dependencies:
+   Navigate to the frontend code directory and install the required npm dependencies:
    ```bash
-   cd frontend
+   cd frontend_folder_name
    npm install
    ```
    
