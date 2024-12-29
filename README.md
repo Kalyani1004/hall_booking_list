@@ -122,7 +122,7 @@ spring.datasource.password=your-password
 
    **Database Schema**
     
-    - Here's the schema for the bookings table in PostgreSQL:
+   Here's the schema for the bookings table in PostgreSQL:
 
 
    ```sql
