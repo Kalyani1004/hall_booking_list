@@ -120,7 +120,7 @@ spring.datasource.password=your-password
       - Delete a booking by its ID.
 
 
-   **Database Schema**
+   ### 5. Database Schema
     
    Here's the schema for the bookings table in PostgreSQL:
 
