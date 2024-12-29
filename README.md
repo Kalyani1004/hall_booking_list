@@ -64,9 +64,10 @@ git clone https://github.com/your-username/hall-booking-system.git
 
 
 ```properties
-```spring.datasource.url=jdbc:postgresql://localhost:5432/bookings```
-```spring.datasource.username=your-username```
-```spring.datasource.password=your-password```
+spring.datasource.url=jdbc:postgresql://localhost:5432/bookings
+spring.datasource.username=your-username
+spring.datasource.password=your-password
+```
 
 **Run the Backend:**
 
@@ -139,6 +140,6 @@ CREATE TABLE IF NOT EXISTS public.bookings
     date date,
     CONSTRAINT bookings_pkey PRIMARY KEY (id)
 )
-
+```
 
 
