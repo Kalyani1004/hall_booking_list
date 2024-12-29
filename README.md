@@ -46,8 +46,27 @@ This is a web-based **Hall Booking System** that allows users to manage hall boo
 
 Clone the repository to your local machine:
 
-```bash
+` ```bash
 git clone https://github.com/your-username/hall-booking-system.git
+`
+### 2. Setup the Backend (Spring Boot)
+
+- **Install Java 11 or higher:**
+
+  Download and install Java from [here](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+- **Configure Database:**
+
+  Install PostgreSQL and create a new database called `bookings`.
+
+  In the `src/main/resources/application.properties` file of the backend, update the PostgreSQL connection details:
+
+ ` ```properties
+  spring.datasource.url=jdbc:postgresql://localhost:5432/bookings
+  spring.datasource.username=your-username
+  spring.datasource.password=your-password
+`
+
 
 
 
