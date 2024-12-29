@@ -69,11 +69,12 @@ spring.datasource.username=your-username
 spring.datasource.password=your-password
 ```
 
-**Run the Backend:**
+- **Run the Backend:**
 
 In the backend directory, use Maven to run the Spring Boot application:
-
+```bash
 mvn spring-boot:run
+```
 
 ### 3. Setup the Frontend (React.js)
 - **Install Node.js:**
