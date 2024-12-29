@@ -100,7 +100,8 @@ spring.datasource.password=your-password
 
   - Frontend URL: http://localhost:3000/
   - Backend API URL: http://localhost:8080/
-  - API Endpoints
+
+   *API Endpoints*
    
    Here are the key API endpoints for managing bookings:
 
