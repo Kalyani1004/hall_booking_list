@@ -62,7 +62,7 @@ git clone https://github.com/your-username/hall-booking-system.git
   In the `src/main/resources/application.properties` file of the backend, update the PostgreSQL connection details:
 
 
-```properties```
+```properties
 ```spring.datasource.url=jdbc:postgresql://localhost:5432/bookings```
 ```spring.datasource.username=your-username```
 ```spring.datasource.password=your-password```
